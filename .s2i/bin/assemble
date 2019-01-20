@@ -4,7 +4,7 @@ echo PWD: $PWD
 echo HOME : $HOME
 # Source code provided to STI will be bind-mounted at /tmp/src
 # and then copied into /opt/wildfly/source for building.
-local_source_dir=git-src
+local_source_dir=$HOME/git-src
 mkdir -p $local_source_dir
 
 # Copy the source from the bind mount in preparation for compilation
