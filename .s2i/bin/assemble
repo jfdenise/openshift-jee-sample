@@ -1,5 +1,7 @@
 #!/bin/bash 
 echo S2I assembling JF DENISE
+echo PWD: $PWD
+echo HOME : $HOME
 # Source code provided to STI will be bind-mounted at /tmp/src
 # and then copied into /opt/wildfly/source for building.
 local_source_dir=git-src
