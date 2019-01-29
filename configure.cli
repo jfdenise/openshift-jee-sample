@@ -1,0 +1,3 @@
+embed-server --admin-only=true
+/system-property=f2f.msg:add(value=HelloWorld)
+stop-embedded-server
