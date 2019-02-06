@@ -11,4 +11,4 @@ mkdir -p $local_source_dir
 cp -ad /tmp/src/* $local_source_dir
 cd $local_source_dir
 mvn clean package -Popenshift -DskipTests
-cp $local_source_dir/target/ROOT.war /wildfly-core/standalone/deployments/ROOT.war
+cp $local_source_dir/target/ROOT.war /wildfly/standalone/deployments/ROOT.war
