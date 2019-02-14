@@ -11,5 +11,4 @@ mkdir -p $local_source_dir
 cp -ad /tmp/src/* $local_source_dir
 cd $local_source_dir
 mvn clean package -Popenshift -DskipTests
-mkdir /deployments
-cp $local_source_dir/target/ROOT.war /deployments/ROOT.war
+cp $local_source_dir/target/ROOT.war /$HOME/ROOT.war
